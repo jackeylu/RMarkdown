@@ -242,4 +242,12 @@ Rmd 格式更详细的描述，去读 yihui 的文档：[自动化报告](https:
 
 [R Markdown App](http://r.psyapp.com/apps/markdown/)
 
+## 还是废话
 
+ps1:  本文档的markdown原生格式，请参考：
+
+<https://github.com/ouyangzhiping/RMarkdown>
+
+ps2： 本文档直接生成的html格式，请访问，看看漂亮的markdown格式：
+
+<http://www.yangzhiping.com/rmarkdown>
