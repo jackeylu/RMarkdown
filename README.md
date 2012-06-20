@@ -86,7 +86,7 @@ Word共享难？我的所有文档都放在github或者其他支持git版本跟�
 
 使用[Lyx](www.lyx.org)，好看多了，效果如下图所示：
 
-![lyx(/images/rmarkdown/lyx.png)
+![lyx](/images/rmarkdown/lyx.png)
 
 问题是，它有坑吗？你跳过吗？
 
