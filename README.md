@@ -110,7 +110,16 @@ Rmd 格式更详细的描述，读 yihui 的文档：[自动化报告](https://g
 
 #### 2.3.2 新建Rmd文档
 
-新建一个Rmd文档，然后，默认会出来一些内容，直接点击： **Knit HTML** 按钮，就会预览成功。你也可以惦记保存，生成相应的图片、Markdown文档。
+新建一个Rmd文档，如下图所示：
+
+![rmarkdown.jpg](/images/rmarkdown/rmarkdown.jpg)
+
+然后，默认会出来一些内容。如果你对Markdown语法有不熟悉的地方，点击MD按钮。写完之后，直接点击： **Knit HTML** 按钮即可发布。MD按钮与Knit Html按钮的位置如下图所示：
+
+![md.jpg](/images/rmarkdown/md.jpg)
+
+就会预览成功。你也可以点击保存，生成相应的图片、Markdown文档。
+
 
 是的，你要的一切图片都有了！这就是 yihui 所推崇的 文学性编程、可重复研究概念的神奇。
 
@@ -166,6 +175,10 @@ Rmd 格式更详细的描述，读 yihui 的文档：[自动化报告](https://g
 网址是：[R Markdown App](http://r.psyapp.com/apps/markdown/)
 
 一键生成之后，作者调用的数据、最终生成的报告图片一目了然。
+
+直接生成的效果如下图所示，是不是就是很漂亮，直接可用的小报告了？
+
+![sna](/images/rmarkdown/sna.png)
 
 #### 2.4.2 更强大的数学与制图能力
 
@@ -253,4 +266,5 @@ Rmd 格式更详细的描述，读 yihui 的文档：[自动化报告](https://g
 * ps2： 本文档直接生成的html格式，请访问，看看漂亮的markdown格式：
 
 <http://www.yangzhiping.com/rmarkdown>
+
 
