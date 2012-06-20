@@ -6,8 +6,8 @@
 
 好了，观点摆出来了，趋势来临之际，人人觉得与自己没有关系。现在，让我讲清楚，Markdown+R与你可能有什么关系。小文结构如下：
 
-* 写作会碰到什么难题？Markdown如何解决的？它为什么一定比Word强？
-* 科技写作会碰到什么难题？Markdown+R如何解决的？它为什么一定比LaTeX强？
+* 写作会碰到什么难题？Markdown如何解决的？为什么它一定比Word强？
+* 科技写作会碰到什么难题？Markdown+R如何解决的？为什么它一定比LaTeX强？
 * 如何学习Markdown+R？
 * 示范
 
@@ -253,3 +253,4 @@ Rmd 格式更详细的描述，读 yihui 的文档：[自动化报告](https://g
 * ps2： 本文档直接生成的html格式，请访问，看看漂亮的markdown格式：
 
 <http://www.yangzhiping.com/rmarkdown>
+
