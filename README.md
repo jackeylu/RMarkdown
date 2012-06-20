@@ -6,8 +6,8 @@
 
 好了，观点摆出来了，趋势来临之际，人人觉得与自己没有关系。现在，让我讲清楚，Markdown+R与你可能有什么关系。小文结构如下：
 
-* 写作会碰到什么难题？Markdown如何解决的？为什么它一定比Word强？
-* 科技写作会碰到什么难题？Markdown+R如何解决的？为什么它一定比LaTeX强？
+* 写作会碰到什么难题？Markdown如何解决的？
+* 科技写作会碰到什么难题？Markdown+R如何解决的？
 * 如何学习Markdown+R？
 * 示范
 
@@ -42,7 +42,7 @@
 
 一切就这么简单。Markdown之所以在被鼓吹之后，越来越流行，不是因为它复杂，而是因为它足够简单。
 
-### 1.3 Markdown如何解决这些难题的，为什么一定比Word强？
+### 1.3 Markdown如何解决这些难题的？
 
 更重要的是，Markdown诞生于互联网时代，更是由深谙互联网文本之道的[John Gruber](http://daringfireball.net/)等人设计。因为[Ruby与github圈的极客们的热捧](https://github.com/search?q=markdown&repo=&langOverride=&start_value=1&type=Repositories&language=)，以及来自[github](http://github.com)、[Stackoverflow](stackoverflow)等的大力支持。从一开始，就建立一个完整的生态链。我们可以粗略看看，Markdown如何解决这些难题的。感兴趣的朋友可以去读我的老文：[理想的写作环境：git+github+markdown+jekyll](http://www.yangzhiping.com/tech/writing-space.html)
 
@@ -76,7 +76,7 @@ Word共享难？我的所有文档都放在github或者其他支持git版本跟�
 
 解决这些难题，[LaTeX](http://en.wikipedia.org/wiki/LaTeX)是国际科学界，尤其是偏数理类的学科的主流方案之一。当然，因为中国盗版office的流行，导致国内科技论文Word更盛行，则是另一码事。Word因为近些年在参考文献协作软件、数学公式方面的发力，也逐步成为科技界认同的论文投递标准之一。
 
-每位提到LaTeX的人们，常常有两种口气。一种是当做大神来敬仰的，当语言、软件变为传奇，路人皆知它的诞生历史时，于是，众多如你我这类文科生，只有抬头仰望的份了。另一类，则是不屑的口气，我靠，LaTeX那么好学，你怎么都学不会！国际期刊都是用这个写的，你别混了。。。
+提到LaTeX的人们，常常有两种口气。一种是当做大神来敬仰的，当语言、软件变为传奇，路人皆知它的诞生历史时，于是，众多如你我这类文科生，只有抬头仰望的份了。另一类，则是不屑的口气，我靠，LaTeX那么好学，你怎么都学不会！国际期刊都是用这个写的，你别混了。。。
 
 于是，我等文科生只好在被鄙视的眼光之下，快快走过LaTeX。。。
 
@@ -84,7 +84,7 @@ Word共享难？我的所有文档都放在github或者其他支持git版本跟�
 
 ![P220903450 4](/images/rmarkdown/p220903450-4.jpg)
 
-### 2.2 Markdown+R如何解决的？它为什么一定比LaTeX强？
+### 2.2 Markdown+R如何解决的？
 
 每位试图解决LaTeX的不便，又试图保留它的优点的人们，都走上了一条不归路。
 
@@ -266,5 +266,6 @@ Rmd 格式更详细的描述，读 yihui 的文档：[自动化报告](https://g
 * ps2： 本文档直接生成的html格式，请访问，看看漂亮的markdown格式：
 
 <http://www.yangzhiping.com/rmarkdown>
+
 
 
