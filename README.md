@@ -1,4 +1,6 @@
-周五，在南开河畔吹牛时，我对友人说，有一位朋友，必然将被科技史记住。
+## 废话
+
+上周五，在南开河畔吹牛时，我对友人说，有一位朋友，必然将被科技史记住。
 
 十年后，基于R+Markdown的科技写作方式将成为主流。而这一切，少不了来自这位朋友的重要开源贡献。他给这条生态链补上了最重要的一环。他，就是yihui。
 
@@ -8,11 +10,11 @@
 * 科技写作会碰到什么难题？Markdown+R如何解决的？它为什么一定比LaTex强？
 * 如何学习Markdown+R？
 * 示范
-==========================================================
 
-## 写作会碰到什么难题？Markdown是什么？它如何解决这些难题的，为什么一定比Word强？
 
-### 写作会碰到什么难题？
+## 1. 写作与Markdown
+
+### 1.1 写作会碰到什么难题？
 
 写作一般而言，会碰到这么一些难题：
 
@@ -21,9 +23,9 @@
 * 难以自动的版本跟踪：每一位自杀的写作者的电脑文档里面，都必然有从V1.0到V20.0的无数个Word文档
 * 难以共同协作：想想你让一位合作的编辑帮你改书有多么痛苦，一个word文档来，一个word去，难用的修订功能，你就理解了；
 
-从2008年开始，我抛弃Word写作，几年来，几本书、十万字以上的长文档，几乎只是用word在最后做个转换与扫尾工作。刚开始是使用google doc，然后当markdown出现之后，毫不犹豫转到它上面来了。我的博客上，关于markdown鼓吹的文章已经足够煽情了。这里，就不再煽情。
+从2008年开始，我抛弃Word写作，几年来，几本书、十万字以上的长文档，几乎只是用word在最后做个转换与扫尾工作。刚开始是使用google doc，然后当[Markdown](http://en.wikipedia.org/wiki/Markdown)出现之后，毫不犹豫转到它上面来了。我的博客上，关于markdown鼓吹的文章已经足够煽情了。这里，就不再煽情。
 
-### Markdown是什么？
+### 1.2 Markdown是什么？
 
 它实际上是个非常简单、非常容易学习的语法。这个语法简单到每个人都可以在5分钟以内学会。
 
@@ -37,11 +39,11 @@
 
 一切就这么简单。Markdown之所以在被我们鼓吹之后，越来越流行，不是因为它复杂，而是因为它足够简单。
 
-### Markdown如何解决这些难题的，为什么一定比Word强？
+### 1.3 Markdown如何解决这些难题的，为什么一定比Word强？
 
 更重要的是，Markdown诞生于互联网时代，更是由深谙互联网文本之道的John Gruber等人设计。因为Ruby与github圈的极客们的热捧，从一开始，就建立一个完整的生态链。我们可以粗略看看，Markdown如何解决这些难题的。感兴趣的朋友可以去读我的老文：[理想的写作环境：git+github+markdown+jekyll](http://www.yangzhiping.com/tech/writing-space.html)
 
-####  借助于github解决文档共享与版本自动跟踪问题
+####  1.3.1 借助于github解决文档共享与版本自动跟踪问题
 
 word共享难？我的所有文档都放在github或者其他任何支持git版本跟踪服务的服务器上。所以，可以极其方便的共享文档写作过程。看看，最近在与豆瓣友邻协作的一本书的截图：
 
@@ -49,7 +51,7 @@ word共享难？我的所有文档都放在github或者其他任何支持git版�
 
 可以清晰地看到，我的所有写作过程，github都可以自动记录下来，从而不再担心写废。而，另一位豆瓣友邻的任何改动、编辑的修订意见，大家都可以实时完成。
 
-#### Markdown让我们专注写作，而不是关注排版
+#### 1.3.2 Markdown让我们专注写作，而不是关注排版
 
 Markdown语法因为格式足够简单，所以，导致开发者非常容易生成非常漂亮的版式。在用Word写作的时候，经常浪费大量时间去思考排版，但是因为markdown足够简单，你无法思考排版，也没必要思考，所以，逼自己集中精力写作。
 
@@ -57,9 +59,9 @@ Markdown语法因为格式足够简单，所以，导致开发者非常容易生
 
 <图片3>
 
-## 科技写作会碰到什么难题？Markdown+R如何解决的？它为什么一定比LaTex强？
+## 2. 科技写作与Markdown+R
 
-###  科技写作会碰到什么难题？
+###  2.1 科技写作会碰到什么难题？
 
 如果你是纯文科生，一辈子写的都是豆瓣小酸文或者诗歌之类的，那么，看完上面这一部分就可以打住了。如果你还有写科技论文或者需要在网站上演示一些代码的需要，则继续往下看。
 
@@ -81,7 +83,7 @@ Markdown语法因为格式足够简单，所以，导致开发者非常容易生
 
 <图片4>
 
-### Markdown+R如何解决的？它为什么一定比LaTex强？
+### 2.2 Markdown+R如何解决的？它为什么一定比LaTex强？
 
 老大，我仅仅是要写一篇论文而已。。。结果，非要让我们成为LaTex教的信徒。这种布局，真的美观吗？它较高的门槛，真的适合我强制推广给大家吗？更别提它的种种不变了。
 
@@ -91,15 +93,15 @@ Markdown语法因为格式足够简单，所以，导致开发者非常容易生
 
 于是，在他的新作R包knitr中，果断提供了Markdown支持。并说服R社区主流编辑器厂家，开源软件RStudio提供 Markdown支持，从而，在最近诞生了Rmd这种新格式。我们有幸看到这个重要格式的诞生，国人的贡献如此重要。
 
-### Rmd 简介
+### 2.3 Rmd 简介
 
 Rmd 格式更详细的描述，去读 yihui 的文档：[自动化报告](https://github.com/yihui/r-ninja/blob/master/11-auto-report.md)
 
 在这里，让我简单说明，如何最快上手Rmd格式。
 
-#### 安装并配置RStudio
+#### 2.3.1 安装并配置RStudio
 
-下载 RStudio 之后，打开配置选项，如下图所示：
+下载 [RStudio](http://rstudio.org/) 之后，打开配置选项，如下图所示：
 
 <图片5>
 
@@ -107,7 +109,7 @@ Rmd 格式更详细的描述，去读 yihui 的文档：[自动化报告](https:
 
 <图片7>
 
-#### 新建Rmd文档
+#### 2.3.2 新建Rmd文档
 
 新建一个Rmd文档，然后，默认会出来一些内容，直接Knit HTML，就会生成相应的图片、Markdown文档。
 
@@ -116,50 +118,47 @@ Rmd 格式更详细的描述，去读 yihui 的文档：[自动化报告](https:
 更重要的是，还保留了对LaTex的无缝兼容。比如，大家可以敲下这段文字：
 
 
-The Normal Distribution
-=======================
-
-The normal distribution is defined as follows:
-
-$$latex
-f(x;\mu,\sigma^2) = \frac{1}{\sigma\sqrt{2\pi}} e^{ -\frac{1}{2}\left(\frac{x-\mu}{\sigma}\right)^2 }
-$$
-
-To generate random draws from a normal distribution we use the **rnorm** function:
-
-```{r block1}
-output <- rnorm(1000, 100, 15);
-```
-
-The normal distribution has the typical bell shape:
-
-```{r block2, fig.width=8, fig.height=5}
-ggplot2::qplot(output)
-```
-
+  The Normal Distribution
+	=======================
+	
+	The normal distribution is defined as follows:
+	
+	$$latex
+	f(x;\mu,\sigma^2) = \frac{1}{\sigma\sqrt{2\pi}} e^{ -\frac{1}{2}\left(\frac{x-\mu}{\sigma}\right)^2 }
+	$$
+	
+	To generate random draws from a normal distribution we use the **rnorm** function:
+	
+	```{r block1}
+	output <- rnorm(1000, 100, 15);
+	```
+	
+	The normal distribution has the typical bell shape:
+	
+	```{r block2, fig.width=8, fig.height=5}
+	ggplot2::qplot(output)
+	```
 
 其中，这一段，
 
-$$latex
-f(x;\mu,\sigma^2) = \frac{1}{\sigma\sqrt{2\pi}} e^{ -\frac{1}{2}\left(\frac{x-\mu}{\sigma}\right)^2 }
-$$
+	$$latex
+	f(x;\mu,\sigma^2) = \frac{1}{\sigma\sqrt{2\pi}} e^{ -\frac{1}{2}\left(\frac{x-\mu}{\sigma}\right)^2 }
+	$$
 
 就是直接生成LaTex格式的数学公式！
 
 没有安装RStudio，或者不熟悉R的朋友，可以在我搭建的一个在线演示APP里面，将上述代码，粘贴上去，然后看看神奇的效果！
 
-网址是：[R Markdown App](http://r.psyapp.com/apps/markdown/)
-
-效果如下图所示：
+网址是：[R Markdown App](http://r.psyapp.com/apps/markdown/) 效果如下图所示：
 
 <图片9>
 
 
-### 这么做，有什么好处呢？
+### 2.4 这么做，有什么好处呢？
 
 让我细数一下：
 
-####  真正意义上的可重复性研究
+####  2.4.1 真正意义上的可重复性研究
 
 发表论文或者审核同事的报告，有个最麻烦的事情，你不知道他的步骤或者计算是否有误。而现在，代码嵌在报告正文中，或者附录在报告末尾。而你，要做的，仅仅是一键生成。。。 这就是真正意义上的可重复性研究！
 
@@ -169,50 +168,53 @@ $$
 
 一键生成之后，作者调用的数据、最终生成的报告图片一目了然。
 
-#### 更强大的数学与制图能力
+#### 2.4.2 更强大的数学与制图能力
 
 既兼容了LaTex的既有能力，同时，又广泛借助于R自身强大的作图能力。
 
 更重要的是，未来，并不是非要用R语言作图。这个yihui 同学在关于钩子那段的描述已经极其清楚了。
 
-#### 当然，还有，云计算，尤其是小型云计算
+#### 2.4.3 当然，还有，云计算，尤其是小型云计算
 
 真正意义上的云计算，小型云计算，而非类似于各类忽悠的云计算。R+Markdown这种方式是最佳方式。我上述例子中提到的那个APP，就是搭建在云中。同时提供各类REST借口，被我们的Ruby程序员调用。
 
-## 如何学习Markdown+R？
+## 3. 如何学习Markdown+R？
 
 好了，回到大家最关心的部分。分成两部分，先是如何学习Markdown，其次是如何学习R。
 
-### Markdown格式说明
+### 3.1 Markdown格式说明
 
 * 参考：[Markdown](http://markdown.tw/)
 * 更好的学习办法是直接读zh目录下的范本文件
 * 更多资源参考[V2ex节点](http://v2ex.com/go/markdown)
 
-### Markdown编辑器
+### 3.2 Markdown编辑器
 
 * Mac等平台下推荐Mou
 * Windows平台推荐???  
 * 可以直接在线通过github撰写与提交Markdown文件，github有自动的版本跟踪功能，不用担心写废与找不到改错的
 
-### Windows下的GitHub特别说明
+### 3.3 Windows下的GitHub特别说明
 
 * 如果碰到git、github等与windows不兼容的现象，不建议折腾，而是直接在线提交即可。
 * GitHub最近发行了Windows版本，下载地址[在这里](https://github.com/blog/1127-github-for-windows)
 * [如何高效利用github](http://www.yangzhiping.com/tech/github.html)
 
-### 如何学习R
+### 3.4 如何学习R
 
-####  Rstudio
+####  3.4.1 Rstudio
 
 * Getting_Started_with_RStudio.pdf
 
-#### R语言入门读物
+#### 3.4.2 R语言入门读物
 
-* R for SAS and SPSS Users.pdf
-* Analysis of Questionnaire Data with R
+* R for SAS and SPSS Users.pdf ： 适合有SPSS基础的朋友
+* Analysis of Questionnaire Data with R  ： 适合处理问卷数据的文科生
+* 更多参考我的豆列：[技术派心理学](http://book.douban.com/doulist/1222833/)
 
-## 示范
+## 4. 示范
+
+### 4.1 文艺青年
 
 文艺青年看这里：[想得越多越保守](http://xingfuke.net/think-less)
 
@@ -222,10 +224,18 @@ $$
 
 其中，这篇文档用到的语法有：
 
-* ![]()  表示图片链接
-* ##   表示标题二
-* []()  表示链接
+* ![]接着()  表示图片链接
+* 2个##表示标题二
+* []接着()表示链接
 
-科学青年则看这里：[如何学习科学：开放科学工具箱](https://github.com/ouyangzhiping/openscience/blob/master/README.md)
+### 4.2 科学青年
 
-点击RAW 即可看到原始格式。
+看这里：[如何学习科学：开放科学工具箱](https://github.com/ouyangzhiping/openscience/blob/master/README.md)
+
+点击RAW 即可看到原始格式。这是一个长文档的示范。
+
+### 4.3 技术青年
+
+[R Markdown App](http://r.psyapp.com/apps/markdown/)
+
+
