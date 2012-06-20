@@ -84,6 +84,12 @@ Word共享难？我的所有文档都放在github或者其他支持git版本跟�
 
 ![P220903450 4](/images/rmarkdown/p220903450-4.jpg)
 
+使用[Lyx](www.lyx.org)，好看多了，效果如下图所示：
+
+![lyx(/images/rmarkdown/lyx.png)
+
+问题是，它有坑吗？你跳过吗？
+
 ### 2.2 Markdown+R如何解决的？
 
 每位试图解决LaTeX的不便，又试图保留它的优点的人们，都走上了一条不归路。
@@ -255,7 +261,7 @@ Rmd 格式更详细的描述，读 yihui 的文档：[自动化报告](https://g
 
 ### 4.3 技术青年
 
-[R Markdown App](http://r.psyapp.com/apps/markdown/)以及各类Google、维基百科。
+[knitr](http://yihui.name/knitr/)、[R Markdown App](http://r.psyapp.com/apps/markdown/)以及各类Google、维基百科。
 
 ## 还是废话
 
