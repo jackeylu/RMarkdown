@@ -271,7 +271,7 @@ Rmd 格式更详细的描述，读 yihui 的文档：[自动化报告](https://g
 
 * ps2： 本文档直接生成的html格式，请访问，看看漂亮的markdown格式：
 
-<http://www.yangzhiping.com/rmarkdown>
+<http://www.yangzhiping.com/RMarkdown/>
 
 
 
